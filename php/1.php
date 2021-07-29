@@ -11,9 +11,9 @@
 	?>
 	<style>
 		body {
-			background: url(img/<?php echo $h % 8; ?>.jpg);
+			background: url(/img/0<?php echo $h % 8; ?>.jpg);
 			background-size: cover;
-			color: #ff0;
+			color: blue;
 		}
 	</style>
 </head>
